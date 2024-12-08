@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Localization
+@using Microsoft.Extensions.Options
+@inject IOptions<RequestLocalizationOptions> locOptions;
+@{
+    ViewData["Title"] = "Home Page";
+    var requestCulture = Context.Features.Get<IRequestCultureFeature>();
+}
+
+
+@requestCulture.RequestCulture.Culture.Name
+@requestCulture.RequestCulture.UICulture.Name
+
+
+

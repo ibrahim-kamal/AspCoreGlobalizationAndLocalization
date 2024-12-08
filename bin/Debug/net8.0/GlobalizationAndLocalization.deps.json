@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GlobalizationAndLocalization/1.0.0": {
+        "runtime": {
+          "GlobalizationAndLocalization.dll": {}
+        },
+        "resources": {
+          "ar/GlobalizationAndLocalization.resources.dll": {
+            "locale": "ar"
+          },
+          "en/GlobalizationAndLocalization.resources.dll": {
+            "locale": "en"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GlobalizationAndLocalization/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
